@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ScreenGuard: your apps now have a guard</title>
+<meta name="description" content="ScreenGuard locks the apps that pull you in, as gently or as firmly as you like, gives you short, mindful breaks when you need them, and shows you how much time you're winning back. No account, no ads, no tracking. For iPhone and iPad.">
+<meta name="apple-itunes-app" content="app-id=6760020453">
+<meta name="theme-color" content="#1D1A4D">
+<link rel="canonical" href="https://screenguardhq.com/">
+<link rel="alternate" hreflang="en" href="https://screenguardhq.com/">
+<link rel="alternate" hreflang="de" href="https://screenguardhq.com/de/">
+<link rel="alternate" hreflang="fr" href="https://screenguardhq.com/fr/">
+<link rel="alternate" hreflang="it" href="https://screenguardhq.com/it/">
+<link rel="alternate" hreflang="x-default" href="https://screenguardhq.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ScreenGuard: your apps now have a guard">
+<meta property="og:description" content="Lock apps gently or firmly. Meet Gardi, your doorman.">
+<meta property="og:image" content="https://screenguardhq.com/assets/og.jpg?v=58442f9f">
+<meta property="og:url" content="https://screenguardhq.com/">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/icon-64.png">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="preload" as="image" href="assets/hero-gate.webp" imagesrcset="assets/hero-gate-1400.webp 1400w, assets/hero-gate.webp 2400w" imagesizes="max(100vw, 138vh)">
+<link rel="stylesheet" href="landing.css?v=345cbb15">
+<script>/* Motion classes, set before first paint: p1 hero arrival, p2 headlines write themselves, p5 dusk follows the scroll, p6 startle on tap.
+   Reduced motion gets none of them (stills and final states only). The timeout undoes p1 if motion.js never starts. */
+(function(){var d=document.documentElement;d.classList.add('js');
+if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+d.classList.add('p1','p2','p5','p6','p1-pre','p1-hide');
+setTimeout(function(){if(!window.__sgMotion)d.classList.remove('p1','p1-pre','p1-hide')},6000)})()</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "ScreenGuard", "operatingSystem": "iOS 26.2, iPadOS 26.2", "applicationCategory": "UtilitiesApplication", "softwareVersion": "1.6", "inLanguage": "en", "description": "ScreenGuard locks the apps that pull you in, as gently or as firmly as you like, gives you short, mindful breaks when you need them, and shows you how much time you're winning back. No account, no ads, no tracking. For iPhone and iPad.", "url": "https://screenguardhq.com/", "image": "https://screenguardhq.com/assets/og.jpg?v=58442f9f", "installUrl": "https://apps.apple.com/app/id6760020453", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "CHF"}, "author": {"@type": "Person", "name": "Martin Affolter"}}</script>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="ScreenGuard, back to top">
+    <img src="assets/icon-64.png" width="34" height="34" alt="">
+    <span>ScreenGuard</span>
+  </a>
+  <nav aria-label="Sections">
+    <a href="#tour">How it works</a>
+    <a href="#privacy">Privacy</a>
+    <a href="#pro">Pro</a>
+    <a href="support.html">Support</a>
+  </nav>
+  <a class="btn btn-small" href="https://apps.apple.com/app/id6760020453">Get the app</a>
+</header>
+
+<main id="top">
+
+<!-- ───────── Hero ───────── -->
+<section class="hero" id="hero">
+  <div class="scene" aria-hidden="true">
+    <img class="scene-art" src="assets/hero-gate.webp"
+         srcset="assets/hero-gate-1400.webp 1400w, assets/hero-gate.webp 2400w"
+         sizes="max(100vw, 138vh)" alt="" fetchpriority="high">
+    <span class="dim dim-pre"></span><span class="dim dim-dusk"></span>
+    <span class="lamp lamp-a"></span><span class="lamp lamp-b"></span>
+  </div>
+  <div class="scene scene-front">
+    <button class="gardi" id="gardi" type="button" aria-label="Gardi, the guard. Tap for a salute.">
+      <picture>
+        <source media="(prefers-reduced-motion: reduce)" srcset="assets/gardi-still.webp">
+        <img src="assets/gardi-hero.webp" width="364" height="640" alt="">
+      </picture>
+    </button>
+  </div>
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <p class="rule" aria-hidden="true"></p>
+      <h1>Your apps now have a&nbsp;guard.</h1>
+      <p class="lede">Meet Gardi, your doorman. He takes doomscrolling personally.</p>
+    </div>
+    <div class="hero-cta">
+      <a class="btn btn-cream" href="https://apps.apple.com/app/id6760020453">Download on the App Store</a>
+      <p class="hero-note">Free to start · iPhone and iPad · No account</p>
+    </div>
+  </div>
+  <a class="scroll-cue" href="#promise" aria-label="Scroll to learn more"><span></span></a>
+</section>
+
+<!-- ───────── Promise ───────── -->
+<section class="paper promise" id="promise">
+  <div class="wrap narrow center">
+    <p class="kicker reveal">Lock apps. Take calm breaks.</p>
+    <h2 class="display reveal">Take back your attention, without fighting your&nbsp;phone.</h2>
+    <p class="body-l reveal">ScreenGuard locks the apps that pull you in, as gently or as firmly as you like, and shows you how much time you're winning back.</p>
+    <ul class="chips reveal" aria-label="How strong a lock is">
+      <li>Gentle</li><li>Firm</li><li>Strict (Pro)</li><li>Templates and programs</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ───────── Tour (sticky phone) ───────── -->
+<section class="paper tour" id="tour">
+  <div class="wrap tour-grid">
+    <div class="chapters">
+
+      <article class="chapter" data-screen="0">
+        <p class="kicker">Locks</p>
+        <h2>He never leaves his post.<img class="mini" src="assets/g/still-calm.webp" width="54" height="72" alt="" aria-hidden="true" loading="lazy" decoding="async"></h2>
+        <p>Every lock is a sentence: which apps, when, and how strong. Choose Gentle, Firm or Strict, and lock for a set time, all the time, or with one shared daily time limit.</p>
+        <ul class="ticks">
+          <li><strong>Strict mode</strong> (Pro): a lock you can't end early, pause or weaken until it ends by itself.</li>
+          <li>Templates like Deep work, Evenings off and Sleep, and programs over several days with Gardi as your coach, like the 7-day reset. You pick the apps.</li>
+          <li>Pomodoro rounds, and days off that pause your locks without breaking your streak.</li>
+        </ul>
+        <figure class="phone inline"><img src="assets/screen-locks.webp?v=4a5cf82b" width="660" height="1434" loading="lazy" alt="The Locks page: Deep Work running as a Strict lock, Social media locked, Work hours and Evening wind-down below"></figure>
+      </article>
+
+      <article class="chapter" data-screen="1">
+        <p class="kicker">Today</p>
+        <h2>Earn his salute.<img class="mini" src="assets/g/still-proud.webp" width="54" height="72" alt="" aria-hidden="true" loading="lazy" decoding="async" data-kind="salute"></h2>
+        <p>A daily Focus Score explained with clear charts, plus a streak that rewards consistency. With two or more locks, tap your day to see each lock on its own line. Time Reclaimed shows how much Focus you gained this week, ready to share.</p>
+        <figure class="phone inline"><img src="assets/screen-today.webp?v=45899928" width="660" height="1434" loading="lazy" alt="The Today page: Gardi, a Focus Score of 93, the lock running now, daily goal and eye breaks"></figure>
+      </article>
+
+      <article class="chapter" data-screen="2">
+        <p class="kicker">The locked-app screen</p>
+        <h2>Sorry, it's closed.<img class="mini" src="assets/g/still-stern.webp" width="54" height="72" alt="" aria-hidden="true" loading="lazy" decoding="async"></h2>
+        <p>Open a locked app and Gardi is there, politely. Need it anyway? Take a short Break right from this screen.</p>
+        <div class="gate-stage" aria-hidden="true"><div class="gs-in">
+        <div class="gs-ground"></div>
+        <svg class="gs-post" viewBox="0 0 50 190" aria-hidden="true"><defs><radialGradient id="gsGlow"><stop offset="0" stop-color="#FFF1CF" stop-opacity=".9"/><stop offset=".45" stop-color="#F4D59A" stop-opacity=".3"/><stop offset="1" stop-color="#F4D59A" stop-opacity="0"/></radialGradient></defs><circle cx="25" cy="27" r="46" fill="url(#gsGlow)"/><rect x="8" y="52" width="34" height="138" rx="2" fill="#3B3870" stroke="#14152A" stroke-width="2"/><rect x="4" y="44" width="42" height="10" rx="2" fill="#4A4688" stroke="#14152A" stroke-width="2"/><path d="M8 90h34M8 130h34" stroke="#14152A" stroke-width="1.4" opacity=".5"/><path d="M25 44V40" stroke="#14152A" stroke-width="2"/><rect x="16" y="14" width="18" height="26" rx="3" fill="#F4D59A" stroke="#14152A" stroke-width="2"/><path d="M13 14 25 4l12 10z" fill="#14152A"/><path d="M25 18v18M20.5 27h9" stroke="#14152A" stroke-width="1.2" opacity=".45"/></svg>
+        <img class="gs-gardi" src="assets/g/still-stern.webp" width="482" height="675" alt="" loading="lazy" decoding="async">
+        <p class="gs-bub">Sorry, it's closed.</p>
+        <div class="gc front" style="--sx:148;--d:-18s"><span class="fl"><span class="hp"><svg viewBox="0 0 60 68" aria-hidden="true"><g class="ink" fill="none" stroke="#14152A" stroke-width="2.4" stroke-linecap="round"><path d="M23 50v11M20 61h6M37 50v11M34 61h6"/></g><path d="M17 4.5c8-1.5 18-1.3 26 .2 8 1.5 11 6 11.3 14.5.3 9.5.2 17-.4 24.5-.7 6-4.5 8-11 8.7-8.8 1-17.2 1-26 0-6.3-.7-10-2.8-10.6-8.7C5.5 36 5.6 28 5.8 19 6 10.5 9.5 6 17 4.5z" fill="#C99AA0" stroke="#14152A" stroke-width="2" stroke-linejoin="round"/><g fill="#14152A"><circle cx="22" cy="19.5" r="2.3"/><circle cx="38" cy="19.5" r="2.3"/></g><g fill="none" stroke="#14152A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path class="f-n" d="M26.5 28.5q3.5 2.2 7 0"/><g class="f-h"><path d="M18 13q4-2.8 8 0M34 13q4-2.8 8 0"/><ellipse cx="30" cy="29" rx="2.3" ry="3" fill="#14152A"/></g><g class="f-s"><path d="M18 14.8 26 12M42 14.8 34 12"/><path d="M25.5 31q4.5-4.5 9 0"/></g></g><g fill="none" stroke="#14152A" stroke-width="2" stroke-linecap="round"><circle cx="30" cy="41" r="5.5"/></g></svg></span></span></div>
+        <div class="gc" style="--sx:210;--d:-12s"><span class="fl"><span class="hp"><svg viewBox="0 0 60 68" aria-hidden="true"><g class="ink" fill="none" stroke="#14152A" stroke-width="2.4" stroke-linecap="round"><path d="M23 50v11M20 61h6M37 50v11M34 61h6"/></g><path d="M17 4.5c8-1.5 18-1.3 26 .2 8 1.5 11 6 11.3 14.5.3 9.5.2 17-.4 24.5-.7 6-4.5 8-11 8.7-8.8 1-17.2 1-26 0-6.3-.7-10-2.8-10.6-8.7C5.5 36 5.6 28 5.8 19 6 10.5 9.5 6 17 4.5z" fill="#9DB59A" stroke="#14152A" stroke-width="2" stroke-linejoin="round"/><g fill="#14152A"><circle cx="22" cy="19.5" r="2.3"/><circle cx="38" cy="19.5" r="2.3"/></g><g fill="none" stroke="#14152A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path class="f-n" d="M26.5 28.5q3.5 2.2 7 0"/><g class="f-h"><path d="M18 13q4-2.8 8 0M34 13q4-2.8 8 0"/><ellipse cx="30" cy="29" rx="2.3" ry="3" fill="#14152A"/></g><g class="f-s"><path d="M18 14.8 26 12M42 14.8 34 12"/><path d="M25.5 31q4.5-4.5 9 0"/></g></g><g fill="none" stroke="#14152A" stroke-width="2" stroke-linecap="round"><path d="M30 35 36 46H24z" stroke-linejoin="round"/></g></svg></span></span></div>
+        <div class="gc" style="--sx:272;--d:-6s"><span class="fl"><span class="hp"><svg viewBox="0 0 60 68" aria-hidden="true"><g class="ink" fill="none" stroke="#14152A" stroke-width="2.4" stroke-linecap="round"><path d="M23 50v11M20 61h6M37 50v11M34 61h6"/></g><path d="M17 4.5c8-1.5 18-1.3 26 .2 8 1.5 11 6 11.3 14.5.3 9.5.2 17-.4 24.5-.7 6-4.5 8-11 8.7-8.8 1-17.2 1-26 0-6.3-.7-10-2.8-10.6-8.7C5.5 36 5.6 28 5.8 19 6 10.5 9.5 6 17 4.5z" fill="#D8C39B" stroke="#14152A" stroke-width="2" stroke-linejoin="round"/><g fill="#14152A"><circle cx="22" cy="19.5" r="2.3"/><circle cx="38" cy="19.5" r="2.3"/></g><g fill="none" stroke="#14152A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path class="f-n" d="M26.5 28.5q3.5 2.2 7 0"/><g class="f-h"><path d="M18 13q4-2.8 8 0M34 13q4-2.8 8 0"/><ellipse cx="30" cy="29" rx="2.3" ry="3" fill="#14152A"/></g><g class="f-s"><path d="M18 14.8 26 12M42 14.8 34 12"/><path d="M25.5 31q4.5-4.5 9 0"/></g></g><g fill="none" stroke="#14152A" stroke-width="2" stroke-linecap="round"><rect x="25" y="36" width="10" height="10" rx="1.5"/></g></svg></span></span></div>
+        <div class="gc" style="--sx:334;--d:-0s"><span class="fl"><span class="hp"><svg viewBox="0 0 60 68" aria-hidden="true"><g class="ink" fill="none" stroke="#14152A" stroke-width="2.4" stroke-linecap="round"><path d="M23 50v11M20 61h6M37 50v11M34 61h6"/></g><path d="M17 4.5c8-1.5 18-1.3 26 .2 8 1.5 11 6 11.3 14.5.3 9.5.2 17-.4 24.5-.7 6-4.5 8-11 8.7-8.8 1-17.2 1-26 0-6.3-.7-10-2.8-10.6-8.7C5.5 36 5.6 28 5.8 19 6 10.5 9.5 6 17 4.5z" fill="#8C9DC4" stroke="#14152A" stroke-width="2" stroke-linejoin="round"/><g fill="#14152A"><circle cx="22" cy="19.5" r="2.3"/><circle cx="38" cy="19.5" r="2.3"/></g><g fill="none" stroke="#14152A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path class="f-n" d="M26.5 28.5q3.5 2.2 7 0"/><g class="f-h"><path d="M18 13q4-2.8 8 0M34 13q4-2.8 8 0"/><ellipse cx="30" cy="29" rx="2.3" ry="3" fill="#14152A"/></g><g class="f-s"><path d="M18 14.8 26 12M42 14.8 34 12"/><path d="M25.5 31q4.5-4.5 9 0"/></g></g><g fill="none" stroke="#14152A" stroke-width="2" stroke-linecap="round"><path d="M22.5 41q3.8-5.5 7.5 0t7.5 0"/></g></svg></span></span></div>
+        <div class="gc" style="--sx:540;--d:-24s"><span class="fl"><span class="hp"><svg viewBox="0 0 60 68" aria-hidden="true"><g class="ink" fill="none" stroke="#14152A" stroke-width="2.4" stroke-linecap="round"><path d="M23 50v11M20 61h6M37 50v11M34 61h6"/></g><path d="M17 4.5c8-1.5 18-1.3 26 .2 8 1.5 11 6 11.3 14.5.3 9.5.2 17-.4 24.5-.7 6-4.5 8-11 8.7-8.8 1-17.2 1-26 0-6.3-.7-10-2.8-10.6-8.7C5.5 36 5.6 28 5.8 19 6 10.5 9.5 6 17 4.5z" fill="#B3A3C9" stroke="#14152A" stroke-width="2" stroke-linejoin="round"/><g fill="#14152A"><circle cx="22" cy="19.5" r="2.3"/><circle cx="38" cy="19.5" r="2.3"/></g><g fill="none" stroke="#14152A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path class="f-n" d="M26.5 28.5q3.5 2.2 7 0"/><g class="f-h"><path d="M18 13q4-2.8 8 0M34 13q4-2.8 8 0"/><ellipse cx="30" cy="29" rx="2.3" ry="3" fill="#14152A"/></g><g class="f-s"><path d="M18 14.8 26 12M42 14.8 34 12"/><path d="M25.5 31q4.5-4.5 9 0"/></g></g><g fill="none" stroke="#14152A" stroke-width="2" stroke-linecap="round"><path d="M30 35v12M24 41h12"/></g></svg></span></span></div>
+        </div></div>
+        <figure class="phone inline"><img src="assets/screen-shield.webp?v=6cc0ec23" width="660" height="1434" loading="lazy" alt="The locked-app screen: This app can wait, with Close and Take a Break"></figure>
+      </article>
+
+      <article class="chapter" data-screen="3">
+        <p class="kicker">Gentle locks</p>
+        <h2>A doorman, not a&nbsp;wall.<img class="mini breathe" src="assets/g/still-calm.webp" width="54" height="72" alt="" aria-hidden="true" loading="lazy" decoding="async"></h2>
+        <p>A Gentle lock doesn't block the app. Gardi asks you to take a breath and say what you came for, then lets you in for a few minutes. Turning back counts as a win.</p>
+        <ul class="ticks">
+          <li>On Firm locks, take a short Break after a 10-second breathing pause. A daily number of Breaks keeps “just one more” in check.</li>
+          <li>Earn a few minutes with push-ups, counted live by your camera.</li>
+        </ul>
+        <figure class="phone inline"><img src="assets/screen-gentle.webp?v=041f3652" width="660" height="1434" loading="lazy" alt="Gardi at the door of a Gentle lock: What for? Three answers and Go back"></figure>
+      </article>
+
+      <article class="chapter" data-screen="4">
+        <p class="kicker">Insights</p>
+        <h2>He knows your weak hours.<img class="mini" src="assets/g/still-thinking.webp" width="54" height="72" alt="" aria-hidden="true" loading="lazy" decoding="async"></h2>
+        <p>Your week in review, as a short story. With Pro: the hours that pull hardest, and Smart Insights that suggest a schedule, a lock length and a number of Breaks that fit you.</p>
+        <figure class="phone inline"><img src="assets/screen-insights.webp?v=efc1ab1d" width="660" height="1434" loading="lazy" alt="Insights: your last week, how often you reached for locked apps, your hardest hours and your week in review"></figure>
+      </article>
+
+    </div>
+
+    <div class="stage" aria-hidden="true">
+      <div class="stage-pin">
+        <div class="stage-glow"></div>
+        <figure class="phone big">
+          <div class="screens" id="screens">
+            <img class="on" src="assets/screen-locks.webp?v=4a5cf82b" width="660" height="1434" alt="">
+            <img src="assets/screen-today.webp?v=45899928" width="660" height="1434" alt="">
+            <img src="assets/screen-shield.webp?v=6cc0ec23" width="660" height="1434" alt="">
+            <img src="assets/screen-gentle.webp?v=041f3652" width="660" height="1434" alt="">
+            <img src="assets/screen-insights.webp?v=efc1ab1d" width="660" height="1434" alt="">
+          </div>
+        </figure>
+        <ol class="pips" id="pips"><li class="on"></li><li></li><li></li><li></li><li></li></ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── Medals ───────── -->
+<section class="paper medals" id="medals">
+  <div class="wrap narrow center">
+    <p class="kicker reveal">Streak medals</p>
+    <h2 class="display reveal">A medal for every milestone.</h2>
+    <p class="body-l reveal">Gardi wears the medal of your running streak. Break the streak and it comes off.</p>
+    <ul class="medal-row" id="medal-row" aria-label="Streak medals">
+      <li class="medal" style="--i:0"><svg viewBox="0 0 96 128" width="96" height="128" aria-hidden="true" focusable="false"><path d="M31 3H65V66L48 55L31 66Z" fill="#2A2B55" stroke="#F6F0E5" stroke-width="1.5" stroke-linejoin="round"/><circle cx="48" cy="87" r="27" fill="#C98A5B" stroke="#14152A" stroke-width="3"/><circle cx="48" cy="87" r="19.5" fill="none" stroke="#14152A" stroke-opacity=".22" stroke-width="1.6"/><ellipse cx="37" cy="75" rx="6.5" ry="3" fill="#fff" fill-opacity=".85" transform="rotate(-35 37 75)"/></svg><span>7 days</span></li>
+      <li class="medal" style="--i:1"><svg viewBox="0 0 96 128" width="96" height="128" aria-hidden="true" focusable="false"><path d="M31 3H65V66L48 55L31 66Z" fill="#2A2B55" stroke="#F6F0E5" stroke-width="1.5" stroke-linejoin="round"/><circle cx="48" cy="87" r="27" fill="#D5D8E0" stroke="#14152A" stroke-width="3"/><circle cx="48" cy="87" r="19.5" fill="none" stroke="#14152A" stroke-opacity=".22" stroke-width="1.6"/><ellipse cx="37" cy="75" rx="6.5" ry="3" fill="#fff" fill-opacity=".85" transform="rotate(-35 37 75)"/></svg><span>14 days</span></li>
+      <li class="medal" style="--i:2"><svg viewBox="0 0 96 128" width="96" height="128" aria-hidden="true" focusable="false"><path d="M31 3H65V66L48 55L31 66Z" fill="#2A2B55" stroke="#F6F0E5" stroke-width="1.5" stroke-linejoin="round"/><circle cx="48" cy="87" r="27" fill="#E9C783" stroke="#14152A" stroke-width="3"/><circle cx="48" cy="87" r="19.5" fill="none" stroke="#14152A" stroke-opacity=".22" stroke-width="1.6"/><ellipse cx="37" cy="75" rx="6.5" ry="3" fill="#fff" fill-opacity=".85" transform="rotate(-35 37 75)"/></svg><span>30 days</span></li>
+      <li class="medal" style="--i:3"><svg viewBox="0 0 96 128" width="96" height="128" aria-hidden="true" focusable="false"><path d="M31 3H65V66L48 55L31 66Z" fill="#B5403A" stroke="#F6F0E5" stroke-width="1.5" stroke-linejoin="round"/><rect x="27" y="3" width="42" height="9" rx="2.5" fill="#E9C783" stroke="#14152A" stroke-width="2"/><circle cx="48" cy="87" r="27" fill="#E9C783" stroke="#14152A" stroke-width="3"/><circle cx="48" cy="87" r="19.5" fill="none" stroke="#14152A" stroke-opacity=".22" stroke-width="1.6"/><ellipse cx="37" cy="75" rx="6.5" ry="3" fill="#fff" fill-opacity=".85" transform="rotate(-35 37 75)"/></svg><span>60 days</span></li>
+      <li class="medal" style="--i:4"><svg viewBox="0 0 96 128" width="96" height="128" aria-hidden="true" focusable="false"><path d="M31 3H65V66L48 55L31 66Z" fill="#B5403A" stroke="#F6F0E5" stroke-width="1.5" stroke-linejoin="round"/><polygon points="48.0,59.0 55.3,78.9 76.5,79.7 59.9,92.9 65.6,113.3 48.0,101.5 30.4,113.3 36.1,92.9 19.5,79.7 40.7,78.9" fill="#E9C783" stroke="#14152A" stroke-width="3" stroke-linejoin="round"/><ellipse cx="41" cy="81" rx="6.5" ry="3" fill="#fff" fill-opacity=".85" transform="rotate(-35 41 81)"/></svg><span>100 days</span></li>
+      <li class="medal" style="--i:5"><svg viewBox="0 0 96 128" width="96" height="128" aria-hidden="true" focusable="false"><path d="M31 3H65V66L48 55L31 66Z" fill="#B5403A" stroke="#F6F0E5" stroke-width="1.5" stroke-linejoin="round"/><rect x="27" y="3" width="42" height="9" rx="2.5" fill="#E9C783" stroke="#14152A" stroke-width="2"/><polygon points="48.0,53.0 57.1,77.5 83.2,78.6 62.7,94.8 69.7,119.9 48.0,105.5 26.3,119.9 33.3,94.8 12.8,78.6 38.9,77.5" fill="#E9C783" stroke="#14152A" stroke-width="3" stroke-linejoin="round"/><ellipse cx="41" cy="82" rx="6.5" ry="3" fill="#fff" fill-opacity=".85" transform="rotate(-35 41 82)"/></svg><span>365 days</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ───────── Off screen (dusk) ───────── -->
+<section class="dusk offscreen" id="offscreen" data-p>
+  <div class="wrap split">
+    <div class="split-copy">
+      <p class="rule reveal" aria-hidden="true"></p>
+      <h2 class="display reveal">On duty, even off&nbsp;screen.<img class="mini" src="assets/g/still-sleepy.webp" width="54" height="72" alt="" aria-hidden="true" loading="lazy" decoding="async" data-kind="doze"></h2>
+      <p class="body-l reveal">Lock Screen, Dynamic Island and widgets. A quiet ring, never a ticking clock.</p>
+      <ul class="plain reveal">
+        <li>Live Activity and Dynamic Island show your lock at a glance.</li>
+        <li>Home Screen and Lock Screen widgets, large and extra large on iPad.</li>
+        <li>A Control Center button and Siri.</li>
+        <li>Link ScreenGuard to your Focus modes: when Sleep or Work turns on, your apps are locked.</li>
+      </ul>
+    </div>
+    <div class="duo" aria-hidden="true">
+      <figure class="phone"><img src="assets/screen-lockscreen.webp?v=161662c6" width="660" height="1434" loading="lazy" alt=""></figure>
+      <span class="island-card" style="background-image:url(assets/screen-island.webp?v=13dd4587)"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── Themes ───────── -->
+<section class="paper themes" id="themes" data-p>
+  <div class="wrap narrow center">
+    <p class="kicker reveal">Calm by design</p>
+    <h2 class="display reveal">Dress the part.</h2>
+    <p class="body-l reveal">Gardi and your score in the sky, everything else on one sheet below. Choose a look in Settings: Dusk (cream, ink and brass), Porcelain (cool white and mint) or Daybreak (warm white and coral). Then an accent color, a font and an app icon.</p>
+  </div>
+  <div class="fan" aria-hidden="true">
+    <figure class="phone fan-l"><img src="assets/screen-look-porcelain.webp?v=332ce9c6" width="660" height="1434" loading="lazy" alt=""><figcaption>Porcelain</figcaption></figure>
+    <figure class="phone fan-r"><img src="assets/screen-look-daybreak.webp?v=3ed4664d" width="660" height="1434" loading="lazy" alt=""><figcaption>Daybreak</figcaption></figure>
+    <figure class="phone fan-c"><img src="assets/screen-look-dusk.webp?v=45899928" width="660" height="1434" loading="lazy" alt=""><figcaption>Dusk</figcaption></figure>
+  </div>
+</section>
+
+<!-- ───────── iPad ───────── -->
+<section class="paper ipad-sec" id="ipad">
+  <div class="wrap split rev">
+    <div class="split-copy">
+      <p class="kicker reveal">iPhone and iPad</p>
+      <h2 class="display reveal">One guard, every&nbsp;door.</h2>
+      <p class="body-l reveal">Using an iPad too? Turn on iCloud sync and your locks and days off appear on all your devices, apps included.</p>
+      <ul class="ticks reveal">
+        <li>On iPad: Today and Insights in two columns, your locks in a grid.</li>
+        <li>Share locks with friends by AirDrop or Messages: they get the times and settings and pick their own apps.</li>
+        <li>In English, German, French and Italian.</li>
+      </ul>
+    </div>
+    <figure class="ipad reveal"><img src="assets/ipad-locks.webp?v=fc2159c8" width="1400" height="1867" loading="lazy" alt="ScreenGuard on iPad: the Locks page in two columns"></figure>
+  </div>
+</section>
+
+<!-- ───────── Privacy ───────── -->
+<section class="paper privacy" id="privacy">
+  <div class="wrap">
+    <div class="narrow center">
+      <p class="kicker reveal">Private by design</p>
+      <h2 class="display reveal">Discreet, as guards&nbsp;are.</h2>
+      <ul class="chips reveal"><li>No tracking</li><li>No account</li><li>No ads</li></ul>
+    </div>
+    <div class="cards three">
+      <article class="card reveal">
+        <h3>Built on Apple's Screen Time</h3>
+        <p>ScreenGuard uses Apple's Screen Time framework. Apple only gives the app anonymous tokens for the apps you choose; the developer cannot see which apps you chose or how you use them.</p>
+      </article>
+      <article class="card reveal">
+        <h3>No ScreenGuard server</h3>
+        <p>No account, no tracking, no ads, no ScreenGuard server. Your data stays on your devices. Insights are worked out on your device, from your own history.</p>
+      </article>
+      <article class="card reveal">
+        <h3>iCloud sync is your choice</h3>
+        <p>Off by default. If you turn it on, your locks and days off are kept in your own iCloud so they appear on your other devices. Your history, Focus Score and streaks are not synced.</p>
+      </article>
+    </div>
+    <p class="center small reveal"><a href="privacy.html">Read the full privacy policy</a></p>
+  </div>
+</section>
+
+<!-- ───────── Pro ───────── -->
+<section class="paper pro" id="pro">
+  <div class="wrap">
+    <div class="narrow center">
+      <p class="kicker reveal">ScreenGuard Pro</p>
+      <h2 class="display reveal">Free to start. Pro when you're&nbsp;ready.</h2>
+    </div>
+    <div class="cards two">
+      <article class="card plan reveal">
+        <h3>Free</h3>
+        <p class="plan-sub">The essentials, for as long as you like.</p>
+        <ul class="ticks">
+          <li>1 lock, at set times or all the time</li>
+          <li>1 daily time limit</li>
+          <li>Gentle and Firm locks, up to 3 Breaks a day</li>
+          <li>Focus Score, streak and medals</li>
+          <li>Templates, one program and your week in review</li>
+        </ul>
+      </article>
+      <article class="card plan plan-pro reveal">
+        <h3>Pro <span class="badge">1 week free for new subscribers</span></h3>
+        <p class="plan-sub">Monthly or yearly, or a one-time lifetime purchase.</p>
+        <ul class="ticks">
+          <li>More locks, up to 14 lock times and free times, more daily time limits</li>
+          <li>Strict mode and visit limits for Gentle locks</li>
+          <li>Three more programs, when apps pull you most, Smart Insights and the weekly report details</li>
+          <li>Up to 10 Breaks a day, more eye-break schedules and two more app icons</li>
+        </ul>
+        <a class="btn btn-cream" href="https://apps.apple.com/app/id6760020453">Download on the App Store</a>
+      </article>
+    </div>
+    <p class="fine reveal">Free includes 1 lock (at set times or all day), 1 lock time or free time in total, 1 daily time limit, up to 3 Breaks a day, one program and the week in review. Pro adds more locks, up to 14 lock times and free times, more time limits and eye-break schedules, up to 10 Breaks a day, Strict mode, a visit limit for Gentle locks, three more programs, when apps pull you most, the weekly report details and two more app icons. If Pro ends, extra locks pause instead of being deleted. Choose monthly or yearly (new subscribers start with a 1-week free trial), or a one-time lifetime purchase. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the period; manage them in your Apple Account settings. Prices are shown in the App Store before you buy and vary by country. Purchases are handled by Apple. <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use</a> · <a href="privacy.html">Privacy Policy</a></p>
+  </div>
+</section>
+
+<!-- ───────── FAQ ───────── -->
+<section class="paper faq" id="faq">
+  <div class="wrap narrow">
+    <h2 class="display center reveal">Good questions.</h2>
+    <details class="reveal"><summary>Why does ScreenGuard need Screen Time access?</summary>
+      <p>Blocking apps on iPhone is only possible through Apple's Screen Time framework. When you allow access, ScreenGuard can shield the apps you choose. See the <a href="privacy.html">privacy policy</a>.</p></details>
+    <details class="reveal"><summary>What is a lock?</summary>
+      <p>A <strong>lock</strong> is a group of apps and when they're locked. There are three kinds: <strong>for a set time</strong> (now, or automatically at set times), <strong>all the time</strong> (with short Breaks when you need one, and optional free times like lunch), and a <strong>daily time limit</strong> (one shared amount of time a day for the group). Every lock also has a strength: Gentle, Firm or Strict.</p></details>
+    <details class="reveal"><summary>What is a Gentle lock?</summary>
+      <p>A Gentle lock doesn't block the app. Gardi asks you to take a breath and say what you came for, then lets you in for a few minutes. Turning back counts as a win. Firm locks keep the apps locked, with Breaks when you need one; Strict locks (Pro) can't be ended early.</p></details>
+    <details class="reveal"><summary>What is a Break?</summary>
+      <p>A <strong>Break</strong> opens the apps of an always-on lock for a few minutes, after a short breathing pause, and locks them again automatically. You choose how many Breaks you get a day.</p></details>
+    <details class="reveal"><summary>What does Strict mode do?</summary>
+      <p>Strict mode (Pro) is for locks with an end time, up to 24 hours. A strict lock can't be ended early, paused, weakened or interrupted by a Break in the app until it ends by itself.</p></details>
+    <details class="reveal"><summary>How do I cancel a subscription?</summary>
+      <p>Settings › your name › Subscriptions › ScreenGuard Pro › Cancel Subscription. You keep Pro until the end of the period you paid for.</p></details>
+    <p class="center small reveal">More answers on the <a href="support.html">support page</a>, or write to <a href="mailto:support.screenguard@gmail.com">support.screenguard@gmail.com</a>.</p>
+  </div>
+</section>
+
+<!-- ───────── Final call ───────── -->
+<section class="dusk final" id="get">
+  <div class="wrap narrow center">
+    <picture>
+      <source media="(prefers-reduced-motion: reduce)" srcset="assets/gardi-still.webp">
+      <img class="final-gardi" src="assets/gardi-idle.webp" width="273" height="480" loading="lazy" alt="Gardi, the royal guard" data-wake="Gardi is dozing. Tap to wake him.">
+    </picture>
+    <p class="psst" aria-hidden="true">Psst. Tap him.</p>
+    <p class="quote reveal">“I'll mind the door.”</p>
+    <h2 class="display reveal">Give your apps a&nbsp;guard.</h2>
+    <a class="btn btn-cream reveal" href="https://apps.apple.com/app/id6760020453">Download on the App Store</a>
+    <p class="hero-note reveal">Free to start · Requires iOS 26.2 or iPadOS 26.2 or later</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <a class="brand" href="#top"><img src="assets/icon-64.png" width="30" height="30" alt=""><span>ScreenGuard</span></a>
+      <nav aria-label="Footer">
+        <a href="support.html">Help &amp; Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use</a>
+        <a href="mailto:support.screenguard@gmail.com">Contact</a>
+      </nav>
+    </div>
+    <p class="legal">Strict mode, more locks, all insights, the weekly report details, three more programs and two more app icons require ScreenGuard Pro. Live Activity, Dynamic Island and widget features depend on your device. Push-up unlocks use the camera on your device; no image or video is recorded, stored or sent anywhere. iCloud sync is optional and works between your own devices with the same Apple Account. Screens show example data.</p>
+    <p class="legal">Apple, the Apple logo, iPhone, iPad, iPadOS, iCloud, Siri, AirDrop, Dynamic Island and Screen Time are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc. ScreenGuard is an independent app and is not affiliated with or endorsed by Apple Inc.</p>
+    <nav class="langs" aria-label="Language"><a href="index.html" hreflang="en" lang="en" aria-current="page">English</a> <a href="de/index.html" hreflang="de" lang="de">Deutsch</a> <a href="fr/index.html" hreflang="fr" lang="fr">Français</a> <a href="it/index.html" hreflang="it" lang="it">Italiano</a></nav>
+    <p class="legal">© 2026 Martin Affolter · Zürich, Switzerland</p>
+  </div>
+</footer>
+
+<script src="landing.js?v=0d3ce5ab" defer></script>
+<script src="motion.js?v=fd3a9c2d" defer></script>
+</body>
+</html>

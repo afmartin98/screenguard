@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ScreenGuard: Deine Apps haben jetzt eine Wache</title>
+<meta name="description" content="ScreenGuard sperrt die Apps, die dich hineinziehen, so sanft oder so fest, wie du willst, gönnt dir kurze, achtsame Pausen, wenn du sie brauchst, und zeigt dir, wie viel Zeit du zurückgewinnst. Kein Konto, keine Werbung, kein Tracking. Für iPhone und iPad.">
+<meta name="apple-itunes-app" content="app-id=6760020453">
+<meta name="theme-color" content="#1D1A4D">
+<link rel="canonical" href="https://screenguardhq.com/de/">
+<link rel="alternate" hreflang="en" href="https://screenguardhq.com/">
+<link rel="alternate" hreflang="de" href="https://screenguardhq.com/de/">
+<link rel="alternate" hreflang="fr" href="https://screenguardhq.com/fr/">
+<link rel="alternate" hreflang="it" href="https://screenguardhq.com/it/">
+<link rel="alternate" hreflang="x-default" href="https://screenguardhq.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ScreenGuard: Deine Apps haben jetzt eine Wache">
+<meta property="og:description" content="Apps sanft oder fest sperren. Das ist Gardi, dein Türsteher.">
+<meta property="og:image" content="https://screenguardhq.com/assets/og.jpg?v=58442f9f">
+<meta property="og:url" content="https://screenguardhq.com/de/">
+<meta property="og:locale" content="de_CH">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../assets/icon-64.png">
+<link rel="apple-touch-icon" href="../assets/icon-180.png">
+<link rel="preload" as="image" href="../assets/hero-gate.webp" imagesrcset="../assets/hero-gate-1400.webp 1400w, ../assets/hero-gate.webp 2400w" imagesizes="max(100vw, 138vh)">
+<link rel="stylesheet" href="../landing.css?v=345cbb15">
+<script>/* Motion classes, set before first paint: p1 hero arrival, p2 headlines write themselves, p5 dusk follows the scroll, p6 startle on tap.
+   Reduced motion gets none of them (stills and final states only). The timeout undoes p1 if motion.js never starts. */
+(function(){var d=document.documentElement;d.classList.add('js');
+if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+d.classList.add('p1','p2','p5','p6','p1-pre','p1-hide');
+setTimeout(function(){if(!window.__sgMotion)d.classList.remove('p1','p1-pre','p1-hide')},6000)})()</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "ScreenGuard", "operatingSystem": "iOS 26.2, iPadOS 26.2", "applicationCategory": "UtilitiesApplication", "softwareVersion": "1.6", "inLanguage": "de", "description": "ScreenGuard sperrt die Apps, die dich hineinziehen, so sanft oder so fest, wie du willst, gönnt dir kurze, achtsame Pausen, wenn du sie brauchst, und zeigt dir, wie viel Zeit du zurückgewinnst. Kein Konto, keine Werbung, kein Tracking. Für iPhone und iPad.", "url": "https://screenguardhq.com/de/", "image": "https://screenguardhq.com/assets/og.jpg?v=58442f9f", "installUrl": "https://apps.apple.com/app/id6760020453", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "CHF"}, "author": {"@type": "Person", "name": "Martin Affolter"}}</script>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="ScreenGuard, zurück nach oben">
+    <img src="../assets/icon-64.png" width="34" height="34" alt="">
+    <span>ScreenGuard</span>
+  </a>
+  <nav aria-label="Bereiche">
+    <a href="#tour">So funktioniert's</a>
+    <a href="#privacy">Datenschutz</a>
+    <a href="#pro">Pro</a>
+    <a href="../support.html">Support</a>
+  </nav>
+  <a class="btn btn-small" href="https://apps.apple.com/app/id6760020453">App laden</a>
+</header>
+
+<main id="top">
+
+<!-- ───────── Hero ───────── -->
+<section class="hero" id="hero">
+  <div class="scene" aria-hidden="true">
+    <img class="scene-art" src="../assets/hero-gate.webp"
+         srcset="../assets/hero-gate-1400.webp 1400w, ../assets/hero-gate.webp 2400w"
+         sizes="max(100vw, 138vh)" alt="" fetchpriority="high">
+    <span class="dim dim-pre"></span><span class="dim dim-dusk"></span>
+    <span class="lamp lamp-a"></span><span class="lamp lamp-b"></span>
+  </div>
+  <div class="scene scene-front">
+    <button class="gardi" id="gardi" type="button" aria-label="Gardi, die Wache. Tippen für einen Gruss.">
+      <picture>
+        <source media="(prefers-reduced-motion: reduce)" srcset="../assets/gardi-still.webp">
+        <img src="../assets/gardi-hero.webp" width="364" height="640" alt="">
+      </picture>
+    </button>
+  </div>
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <p class="rule" aria-hidden="true"></p>
+      <h1>Deine Apps haben jetzt eine&nbsp;Wache.</h1>
+      <p class="lede">Das ist Gardi, dein Türsteher. Er nimmt Doomscrolling persönlich.</p>
+    </div>
+    <div class="hero-cta">
+      <a class="btn btn-cream" href="https://apps.apple.com/app/id6760020453">Laden im App Store</a>
+      <p class="hero-note">Gratis starten · iPhone und iPad · Kein Konto</p>
+    </div>
+  </div>
+  <a class="scroll-cue" href="#promise" aria-label="Scrollen für mehr"><span></span></a>
+</section>
+
+<!-- ───────── Promise ───────── -->
+<section class="paper promise" id="promise">
+  <div class="wrap narrow center">
+    <p class="kicker reveal">Apps sperren. Ruhig Pause machen.</p>
+    <h2 class="display reveal">Hol dir deine Aufmerksamkeit zurück, ohne gegen dein&nbsp;Handy zu kämpfen.</h2>
+    <p class="body-l reveal">ScreenGuard sperrt die Apps, die dich hineinziehen, so sanft oder so fest, wie du willst, und zeigt dir, wie viel Zeit du zurückgewinnst.</p>
+    <ul class="chips reveal" aria-label="Wie stark eine Sperre ist">
+      <li>Sanft</li><li>Fest</li><li>Streng (Pro)</li><li>Vorlagen und Programme</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ───────── Tour (sticky phone) ───────── -->
+<section class="paper tour" id="tour">
+  <div class="wrap tour-grid">
+    <div class="chapters">
+
+      <article class="chapter" data-screen="0">
+        <p class="kicker">Sperren</p>
+        <h2>Er verlässt nie seinen Posten.<img class="mini" src="../assets/g/still-calm.webp" width="54" height="72" alt="" aria-hidden="true" loading="lazy" decoding="async"></h2>
+        <p>Jede Sperre ist ein Satz: welche Apps, wann und wie streng. Wähle Sanft, Fest oder Streng und sperre für eine bestimmte Zeit, die ganze Zeit oder mit einem gemeinsamen täglichen Zeitlimit.</p>
+        <ul class="ticks">
+          <li><strong>Strenger Modus</strong> (Pro): eine Sperre, die du nicht vorzeitig beenden, pausieren oder abschwächen kannst, bis sie von selbst endet.</li>
+          <li>Vorlagen wie Konzentriert arbeiten, Freie Abende und Schlaf sowie Programme über mehrere Tage mit Gardi als Coach, etwa der 7-Tage-Reset. Du wählst nur die Apps.</li>
+          <li>Pomodoro-Runden und freie Tage, die deine Sperren pausieren, ohne deine Serie zu unterbrechen.</li>
+        </ul>
+        <figure class="phone inline"><img src="../assets/de/screen-locks.webp?v=fbcfd5e7" width="660" height="1434" loading="lazy" alt="Die Seite Sperren: Fokuszeit läuft als strenge Sperre, Social Media gesperrt, darunter Arbeitszeit und Abendruhe"></figure>
+      </article>
+
+      <article class="chapter" data-screen="1">
+        <p class="kicker">Heute</p>
+        <h2>Verdien dir seinen Gruss.<img class="mini" src="../assets/g/still-proud.webp" width="54" height="72" alt="" aria-hidden="true" loading="lazy" decoding="async" data-kind="salute"></h2>
+        <p>Ein täglicher Fokus-Score mit verständlichen Diagrammen und eine Serie, die Beständigkeit belohnt. Mit zwei oder mehr Sperren siehst du nach einem Tipp auf deinen Tag jede Sperre auf einer eigenen Zeile. Zurückgewonnene Zeit zeigt, wie viel Fokus du diese Woche gewonnen hast, bereit zum Teilen.</p>
+        <figure class="phone inline"><img src="../assets/de/screen-today.webp?v=a09810bd" width="660" height="1434" loading="lazy" alt="Die Seite Heute: Gardi, ein Fokus-Score von 93, die laufende Sperre, Tagesziel und Augenpausen"></figure>
+      </article>
+
+      <article class="chapter" data-screen="2">
+        <p class="kicker">Der Bildschirm der gesperrten App</p>
+        <h2>Tut mir leid, hier ist zu.<img class="mini" src="../assets/g/still-stern.webp" width="54" height="72" alt="" aria-hidden="true" loading="lazy" decoding="async"></h2>
+        <p>Öffnest du eine gesperrte App, ist Gardi da, höflich. Brauchst du sie trotzdem? Mach direkt auf diesem Bildschirm eine kurze Pause.</p>
+        <div class="gate-stage" aria-hidden="true"><div class="gs-in">
+        <div class="gs-ground"></div>
+        <svg class="gs-post" viewBox="0 0 50 190" aria-hidden="true"><defs><radialGradient id="gsGlow"><stop offset="0" stop-color="#FFF1CF" stop-opacity=".9"/><stop offset=".45" stop-color="#F4D59A" stop-opacity=".3"/><stop offset="1" stop-color="#F4D59A" stop-opacity="0"/></radialGradient></defs><circle cx="25" cy="27" r="46" fill="url(#gsGlow)"/><rect x="8" y="52" width="34" height="138" rx="2" fill="#3B3870" stroke="#14152A" stroke-width="2"/><rect x="4" y="44" width="42" height="10" rx="2" fill="#4A4688" stroke="#14152A" stroke-width="2"/><path d="M8 90h34M8 130h34" stroke="#14152A" stroke-width="1.4" opacity=".5"/><path d="M25 44V40" stroke="#14152A" stroke-width="2"/><rect x="16" y="14" width="18" height="26" rx="3" fill="#F4D59A" stroke="#14152A" stroke-width="2"/><path d="M13 14 25 4l12 10z" fill="#14152A"/><path d="M25 18v18M20.5 27h9" stroke="#14152A" stroke-width="1.2" opacity=".45"/></svg>
+        <img class="gs-gardi" src="../assets/g/still-stern.webp" width="482" height="675" alt="" loading="lazy" decoding="async">
+        <p class="gs-bub">Tut mir leid, hier ist zu.</p>
+        <div class="gc front" style="--sx:148;--d:-18s"><span class="fl"><span class="hp"><svg viewBox="0 0 60 68" aria-hidden="true"><g class="ink" fill="none" stroke="#14152A" stroke-width="2.4" stroke-linecap="round"><path d="M23 50v11M20 61h6M37 50v11M34 61h6"/></g><path d="M17 4.5c8-1.5 18-1.3 26 .2 8 1.5 11 6 11.3 14.5.3 9.5.2 17-.4 24.5-.7 6-4.5 8-11 8.7-8.8 1-17.2 1-26 0-6.3-.7-10-2.8-10.6-8.7C5.5 36 5.6 28 5.8 19 6 10.5 9.5 6 17 4.5z" fill="#C99AA0" stroke="#14152A" stroke-width="2" stroke-linejoin="round"/><g fill="#14152A"><circle cx="22" cy="19.5" r="2.3"/><circle cx="38" cy="19.5" r="2.3"/></g><g fill="none" stroke="#14152A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path class="f-n" d="M26.5 28.5q3.5 2.2 7 0"/><g class="f-h"><path d="M18 13q4-2.8 8 0M34 13q4-2.8 8 0"/><ellipse cx="30" cy="29" rx="2.3" ry="3" fill="#14152A"/></g><g class="f-s"><path d="M18 14.8 26 12M42 14.8 34 12"/><path d="M25.5 31q4.5-4.5 9 0"/></g></g><g fill="none" stroke="#14152A" stroke-width="2" stroke-linecap="round"><circle cx="30" cy="41" r="5.5"/></g></svg></span></span></div>
+        <div class="gc" style="--sx:210;--d:-12s"><span class="fl"><span class="hp"><svg viewBox="0 0 60 68" aria-hidden="true"><g class="ink" fill="none" stroke="#14152A" stroke-width="2.4" stroke-linecap="round"><path d="M23 50v11M20 61h6M37 50v11M34 61h6"/></g><path d="M17 4.5c8-1.5 18-1.3 26 .2 8 1.5 11 6 11.3 14.5.3 9.5.2 17-.4 24.5-.7 6-4.5 8-11 8.7-8.8 1-17.2 1-26 0-6.3-.7-10-2.8-10.6-8.7C5.5 36 5.6 28 5.8 19 6 10.5 9.5 6 17 4.5z" fill="#9DB59A" stroke="#14152A" stroke-width="2" stroke-linejoin="round"/><g fill="#14152A"><circle cx="22" cy="19.5" r="2.3"/><circle cx="38" cy="19.5" r="2.3"/></g><g fill="none" stroke="#14152A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path class="f-n" d="M26.5 28.5q3.5 2.2 7 0"/><g class="f-h"><path d="M18 13q4-2.8 8 0M34 13q4-2.8 8 0"/><ellipse cx="30" cy="29" rx="2.3" ry="3" fill="#14152A"/></g><g class="f-s"><path d="M18 14.8 26 12M42 14.8 34 12"/><path d="M25.5 31q4.5-4.5 9 0"/></g></g><g fill="none" stroke="#14152A" stroke-width="2" stroke-linecap="round"><path d="M30 35 36 46H24z" stroke-linejoin="round"/></g></svg></span></span></div>
+        <div class="gc" style="--sx:272;--d:-6s"><span class="fl"><span class="hp"><svg viewBox="0 0 60 68" aria-hidden="true"><g class="ink" fill="none" stroke="#14152A" stroke-width="2.4" stroke-linecap="round"><path d="M23 50v11M20 61h6M37 50v11M34 61h6"/></g><path d="M17 4.5c8-1.5 18-1.3 26 .2 8 1.5 11 6 11.3 14.5.3 9.5.2 17-.4 24.5-.7 6-4.5 8-11 8.7-8.8 1-17.2 1-26 0-6.3-.7-10-2.8-10.6-8.7C5.5 36 5.6 28 5.8 19 6 10.5 9.5 6 17 4.5z" fill="#D8C39B" stroke="#14152A" stroke-width="2" stroke-linejoin="round"/><g fill="#14152A"><circle cx="22" cy="19.5" r="2.3"/><circle cx="38" cy="19.5" r="2.3"/></g><g fill="none" stroke="#14152A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path class="f-n" d="M26.5 28.5q3.5 2.2 7 0"/><g class="f-h"><path d="M18 13q4-2.8 8 0M34 13q4-2.8 8 0"/><ellipse cx="30" cy="29" rx="2.3" ry="3" fill="#14152A"/></g><g class="f-s"><path d="M18 14.8 26 12M42 14.8 34 12"/><path d="M25.5 31q4.5-4.5 9 0"/></g></g><g fill="none" stroke="#14152A" stroke-width="2" stroke-linecap="round"><rect x="25" y="36" width="10" height="10" rx="1.5"/></g></svg></span></span></div>
+        <div class="gc" style="--sx:334;--d:-0s"><span class="fl"><span class="hp"><svg viewBox="0 0 60 68" aria-hidden="true"><g class="ink" fill="none" stroke="#14152A" stroke-width="2.4" stroke-linecap="round"><path d="M23 50v11M20 61h6M37 50v11M34 61h6"/></g><path d="M17 4.5c8-1.5 18-1.3 26 .2 8 1.5 11 6 11.3 14.5.3 9.5.2 17-.4 24.5-.7 6-4.5 8-11 8.7-8.8 1-17.2 1-26 0-6.3-.7-10-2.8-10.6-8.7C5.5 36 5.6 28 5.8 19 6 10.5 9.5 6 17 4.5z" fill="#8C9DC4" stroke="#14152A" stroke-width="2" stroke-linejoin="round"/><g fill="#14152A"><circle cx="22" cy="19.5" r="2.3"/><circle cx="38" cy="19.5" r="2.3"/></g><g fill="none" stroke="#14152A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path class="f-n" d="M26.5 28.5q3.5 2.2 7 0"/><g class="f-h"><path d="M18 13q4-2.8 8 0M34 13q4-2.8 8 0"/><ellipse cx="30" cy="29" rx="2.3" ry="3" fill="#14152A"/></g><g class="f-s"><path d="M18 14.8 26 12M42 14.8 34 12"/><path d="M25.5 31q4.5-4.5 9 0"/></g></g><g fill="none" stroke="#14152A" stroke-width="2" stroke-linecap="round"><path d="M22.5 41q3.8-5.5 7.5 0t7.5 0"/></g></svg></span></span></div>
+        <div class="gc" style="--sx:540;--d:-24s"><span class="fl"><span class="hp"><svg viewBox="0 0 60 68" aria-hidden="true"><g class="ink" fill="none" stroke="#14152A" stroke-width="2.4" stroke-linecap="round"><path d="M23 50v11M20 61h6M37 50v11M34 61h6"/></g><path d="M17 4.5c8-1.5 18-1.3 26 .2 8 1.5 11 6 11.3 14.5.3 9.5.2 17-.4 24.5-.7 6-4.5 8-11 8.7-8.8 1-17.2 1-26 0-6.3-.7-10-2.8-10.6-8.7C5.5 36 5.6 28 5.8 19 6 10.5 9.5 6 17 4.5z" fill="#B3A3C9" stroke="#14152A" stroke-width="2" stroke-linejoin="round"/><g fill="#14152A"><circle cx="22" cy="19.5" r="2.3"/><circle cx="38" cy="19.5" r="2.3"/></g><g fill="none" stroke="#14152A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path class="f-n" d="M26.5 28.5q3.5 2.2 7 0"/><g class="f-h"><path d="M18 13q4-2.8 8 0M34 13q4-2.8 8 0"/><ellipse cx="30" cy="29" rx="2.3" ry="3" fill="#14152A"/></g><g class="f-s"><path d="M18 14.8 26 12M42 14.8 34 12"/><path d="M25.5 31q4.5-4.5 9 0"/></g></g><g fill="none" stroke="#14152A" stroke-width="2" stroke-linecap="round"><path d="M30 35v12M24 41h12"/></g></svg></span></span></div>
+        </div></div>
+        <figure class="phone inline"><img src="../assets/de/screen-shield.webp?v=6dbb2bff" width="660" height="1434" loading="lazy" alt="Der Bildschirm der gesperrten App: Diese App kann warten, mit Schliessen und Pause machen"></figure>
+      </article>
+
+      <article class="chapter" data-screen="3">
+        <p class="kicker">Sanfte Sperren</p>
+        <h2>Ein Türsteher, keine&nbsp;Mauer.<img class="mini breathe" src="../assets/g/still-calm.webp" width="54" height="72" alt="" aria-hidden="true" loading="lazy" decoding="async"></h2>
+        <p>Eine sanfte Sperre blockiert die App nicht. Gardi bittet dich, kurz durchzuatmen und zu sagen, wofür du kommst, und lässt dich dann für ein paar Minuten hinein. Umkehren zählt als Sieg.</p>
+        <ul class="ticks">
+          <li>Bei festen Sperren machst du nach 10 Sekunden Durchatmen eine kurze Pause. Eine feste Zahl Pausen pro Tag hält das „nur noch eins“ in Schach.</li>
+          <li>Verdiene dir ein paar Minuten mit Liegestützen, live von deiner Kamera gezählt.</li>
+        </ul>
+        <figure class="phone inline"><img src="../assets/de/screen-gentle.webp?v=10cb4410" width="660" height="1434" loading="lazy" alt="Gardi an der Tür einer sanften Sperre: Wozu? Drei Antworten und Zurück"></figure>
+      </article>
+
+      <article class="chapter" data-screen="4">
+        <p class="kicker">Einblicke</p>
+        <h2>Er kennt deine schwachen Stunden.<img class="mini" src="../assets/g/still-thinking.webp" width="54" height="72" alt="" aria-hidden="true" loading="lazy" decoding="async"></h2>
+        <p>Deine Woche im Rückblick, als kurze Geschichte. Mit Pro siehst du die Stunden, die am meisten ziehen, und Smarte Einblicke schlagen Zeitplan, Sperrdauer und Anzahl Pausen vor, die zu dir passen.</p>
+        <figure class="phone inline"><img src="../assets/de/screen-insights.webp?v=8b90941c" width="660" height="1434" loading="lazy" alt="Einblicke: deine letzte Woche, wie oft du nach gesperrten Apps gegriffen hast, die schwersten Stunden und dein Wochenrückblick"></figure>
+      </article>
+
+    </div>
+
+    <div class="stage" aria-hidden="true">
+      <div class="stage-pin">
+        <div class="stage-glow"></div>
+        <figure class="phone big">
+          <div class="screens" id="screens">
+            <img class="on" src="../assets/de/screen-locks.webp?v=fbcfd5e7" width="660" height="1434" alt="">
+            <img src="../assets/de/screen-today.webp?v=a09810bd" width="660" height="1434" alt="">
+            <img src="../assets/de/screen-shield.webp?v=6dbb2bff" width="660" height="1434" alt="">
+            <img src="../assets/de/screen-gentle.webp?v=10cb4410" width="660" height="1434" alt="">
+            <img src="../assets/de/screen-insights.webp?v=8b90941c" width="660" height="1434" alt="">
+          </div>
+        </figure>
+        <ol class="pips" id="pips"><li class="on"></li><li></li><li></li><li></li><li></li></ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── Medals ───────── -->
+<section class="paper medals" id="medals">
+  <div class="wrap narrow center">
+    <p class="kicker reveal">Serien-Medaillen</p>
+    <h2 class="display reveal">Eine Medaille für jeden Meilenstein.</h2>
+    <p class="body-l reveal">Gardi trägt die Medaille deiner laufenden Serie. Reisst die Serie ab, legt er sie wieder ab.</p>
+    <ul class="medal-row" id="medal-row" aria-label="Serien-Medaillen">
+      <li class="medal" style="--i:0"><svg viewBox="0 0 96 128" width="96" height="128" aria-hidden="true" focusable="false"><path d="M31 3H65V66L48 55L31 66Z" fill="#2A2B55" stroke="#F6F0E5" stroke-width="1.5" stroke-linejoin="round"/><circle cx="48" cy="87" r="27" fill="#C98A5B" stroke="#14152A" stroke-width="3"/><circle cx="48" cy="87" r="19.5" fill="none" stroke="#14152A" stroke-opacity=".22" stroke-width="1.6"/><ellipse cx="37" cy="75" rx="6.5" ry="3" fill="#fff" fill-opacity=".85" transform="rotate(-35 37 75)"/></svg><span>7 Tage</span></li>
+      <li class="medal" style="--i:1"><svg viewBox="0 0 96 128" width="96" height="128" aria-hidden="true" focusable="false"><path d="M31 3H65V66L48 55L31 66Z" fill="#2A2B55" stroke="#F6F0E5" stroke-width="1.5" stroke-linejoin="round"/><circle cx="48" cy="87" r="27" fill="#D5D8E0" stroke="#14152A" stroke-width="3"/><circle cx="48" cy="87" r="19.5" fill="none" stroke="#14152A" stroke-opacity=".22" stroke-width="1.6"/><ellipse cx="37" cy="75" rx="6.5" ry="3" fill="#fff" fill-opacity=".85" transform="rotate(-35 37 75)"/></svg><span>14 Tage</span></li>
+      <li class="medal" style="--i:2"><svg viewBox="0 0 96 128" width="96" height="128" aria-hidden="true" focusable="false"><path d="M31 3H65V66L48 55L31 66Z" fill="#2A2B55" stroke="#F6F0E5" stroke-width="1.5" stroke-linejoin="round"/><circle cx="48" cy="87" r="27" fill="#E9C783" stroke="#14152A" stroke-width="3"/><circle cx="48" cy="87" r="19.5" fill="none" stroke="#14152A" stroke-opacity=".22" stroke-width="1.6"/><ellipse cx="37" cy="75" rx="6.5" ry="3" fill="#fff" fill-opacity=".85" transform="rotate(-35 37 75)"/></svg><span>30 Tage</span></li>
+      <li class="medal" style="--i:3"><svg viewBox="0 0 96 128" width="96" height="128" aria-hidden="true" focusable="false"><path d="M31 3H65V66L48 55L31 66Z" fill="#B5403A" stroke="#F6F0E5" stroke-width="1.5" stroke-linejoin="round"/><rect x="27" y="3" width="42" height="9" rx="2.5" fill="#E9C783" stroke="#14152A" stroke-width="2"/><circle cx="48" cy="87" r="27" fill="#E9C783" stroke="#14152A" stroke-width="3"/><circle cx="48" cy="87" r="19.5" fill="none" stroke="#14152A" stroke-opacity=".22" stroke-width="1.6"/><ellipse cx="37" cy="75" rx="6.5" ry="3" fill="#fff" fill-opacity=".85" transform="rotate(-35 37 75)"/></svg><span>60 Tage</span></li>
+      <li class="medal" style="--i:4"><svg viewBox="0 0 96 128" width="96" height="128" aria-hidden="true" focusable="false"><path d="M31 3H65V66L48 55L31 66Z" fill="#B5403A" stroke="#F6F0E5" stroke-width="1.5" stroke-linejoin="round"/><polygon points="48.0,59.0 55.3,78.9 76.5,79.7 59.9,92.9 65.6,113.3 48.0,101.5 30.4,113.3 36.1,92.9 19.5,79.7 40.7,78.9" fill="#E9C783" stroke="#14152A" stroke-width="3" stroke-linejoin="round"/><ellipse cx="41" cy="81" rx="6.5" ry="3" fill="#fff" fill-opacity=".85" transform="rotate(-35 41 81)"/></svg><span>100 Tage</span></li>
+      <li class="medal" style="--i:5"><svg viewBox="0 0 96 128" width="96" height="128" aria-hidden="true" focusable="false"><path d="M31 3H65V66L48 55L31 66Z" fill="#B5403A" stroke="#F6F0E5" stroke-width="1.5" stroke-linejoin="round"/><rect x="27" y="3" width="42" height="9" rx="2.5" fill="#E9C783" stroke="#14152A" stroke-width="2"/><polygon points="48.0,53.0 57.1,77.5 83.2,78.6 62.7,94.8 69.7,119.9 48.0,105.5 26.3,119.9 33.3,94.8 12.8,78.6 38.9,77.5" fill="#E9C783" stroke="#14152A" stroke-width="3" stroke-linejoin="round"/><ellipse cx="41" cy="82" rx="6.5" ry="3" fill="#fff" fill-opacity=".85" transform="rotate(-35 41 82)"/></svg><span>365 Tage</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ───────── Off screen (dusk) ───────── -->
+<section class="dusk offscreen" id="offscreen" data-p>
+  <div class="wrap split">
+    <div class="split-copy">
+      <p class="rule reveal" aria-hidden="true"></p>
+      <h2 class="display reveal">Im Dienst, auch&nbsp;ausserhalb.<img class="mini" src="../assets/g/still-sleepy.webp" width="54" height="72" alt="" aria-hidden="true" loading="lazy" decoding="async" data-kind="doze"></h2>
+      <p class="body-l reveal">Sperrbildschirm, Dynamic Island und Widgets. Ein ruhiger Ring, nie eine tickende Uhr.</p>
+      <ul class="plain reveal">
+        <li>Live-Aktivität und Dynamic Island zeigen deine Sperre auf einen Blick.</li>
+        <li>Widgets für Home- und Sperrbildschirm, gross und extragross auf dem iPad.</li>
+        <li>Eine Kontrollzentrum-Taste und Siri.</li>
+        <li>Verbinde ScreenGuard mit deinen Fokus-Modi: Bei „Schlafen“ oder „Arbeiten“ sind deine Apps gesperrt.</li>
+      </ul>
+    </div>
+    <div class="duo" aria-hidden="true">
+      <figure class="phone"><img src="../assets/de/screen-lockscreen.webp?v=aac12af6" width="660" height="1434" loading="lazy" alt=""></figure>
+      <span class="island-card" style="background-image:url(../assets/de/screen-island.webp?v=388feaf9)"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── Themes ───────── -->
+<section class="paper themes" id="themes" data-p>
+  <div class="wrap narrow center">
+    <p class="kicker reveal">Ruhig gestaltet</p>
+    <h2 class="display reveal">Kleider machen Wachen.</h2>
+    <p class="body-l reveal">Gardi und dein Score am Himmel, alles andere auf einem Blatt darunter. Wähle in den Einstellungen einen Stil: Dämmerung (Creme, Tinte und Messing), Porzellan (kühles Weiss und Mint) oder Morgenrot (warmes Weiss und Koralle). Dazu Akzentfarbe, Schrift und App-Symbol.</p>
+  </div>
+  <div class="fan" aria-hidden="true">
+    <figure class="phone fan-l"><img src="../assets/de/screen-look-porcelain.webp?v=52a67677" width="660" height="1434" loading="lazy" alt=""><figcaption>Porzellan</figcaption></figure>
+    <figure class="phone fan-r"><img src="../assets/de/screen-look-daybreak.webp?v=c5c54d9c" width="660" height="1434" loading="lazy" alt=""><figcaption>Morgenrot</figcaption></figure>
+    <figure class="phone fan-c"><img src="../assets/de/screen-look-dusk.webp?v=a09810bd" width="660" height="1434" loading="lazy" alt=""><figcaption>Dämmerung</figcaption></figure>
+  </div>
+</section>
+
+<!-- ───────── iPad ───────── -->
+<section class="paper ipad-sec" id="ipad">
+  <div class="wrap split rev">
+    <div class="split-copy">
+      <p class="kicker reveal">iPhone und iPad</p>
+      <h2 class="display reveal">Eine Wache, jede&nbsp;Tür.</h2>
+      <p class="body-l reveal">Auch ein iPad? Schalte die iCloud-Synchronisierung ein, und deine Sperren und freien Tage erscheinen auf all deinen Geräten, samt Apps.</p>
+      <ul class="ticks reveal">
+        <li>Auf dem iPad: Heute und Einblicke in zwei Spalten, deine Sperren im Raster.</li>
+        <li>Teile Sperren per AirDrop oder Nachrichten: Freunde erhalten Zeiten und Einstellungen und wählen ihre eigenen Apps.</li>
+        <li>Auf Deutsch, Englisch, Französisch und Italienisch.</li>
+      </ul>
+    </div>
+    <figure class="ipad reveal"><img src="../assets/de/ipad-locks.webp?v=2097da27" width="1400" height="1867" loading="lazy" alt="ScreenGuard auf dem iPad: die Seite Sperren in zwei Spalten"></figure>
+  </div>
+</section>
+
+<!-- ───────── Privacy ───────── -->
+<section class="paper privacy" id="privacy">
+  <div class="wrap">
+    <div class="narrow center">
+      <p class="kicker reveal">Privat aus Prinzip</p>
+      <h2 class="display reveal">Diskret, wie Wachen&nbsp;sind.</h2>
+      <ul class="chips reveal"><li>Kein Tracking</li><li>Kein Konto</li><li>Keine Werbung</li></ul>
+    </div>
+    <div class="cards three">
+      <article class="card reveal">
+        <h3>Auf Apples Bildschirmzeit aufgebaut</h3>
+        <p>ScreenGuard nutzt Apples Bildschirmzeit-Framework. Apple gibt der App nur anonyme Tokens für die Apps, die du wählst; der Entwickler sieht weder, welche Apps du gewählt hast, noch wie du sie nutzt.</p>
+      </article>
+      <article class="card reveal">
+        <h3>Kein ScreenGuard-Server</h3>
+        <p>Kein Konto, kein Tracking, keine Werbung, kein ScreenGuard-Server. Deine Daten bleiben auf deinen Geräten. Einblicke werden auf deinem Gerät aus deinem eigenen Verlauf berechnet.</p>
+      </article>
+      <article class="card reveal">
+        <h3>iCloud-Synchronisierung ist deine Wahl</h3>
+        <p>Standardmässig aus. Wenn du sie einschaltest, liegen deine Sperren und freien Tage in deiner eigenen iCloud und erscheinen auf deinen anderen Geräten. Dein Verlauf, Fokus-Score und deine Serien werden nicht synchronisiert.</p>
+      </article>
+    </div>
+    <p class="center small reveal"><a href="../privacy.html">Die ganze Datenschutzerklärung lesen</a></p>
+  </div>
+</section>
+
+<!-- ───────── Pro ───────── -->
+<section class="paper pro" id="pro">
+  <div class="wrap">
+    <div class="narrow center">
+      <p class="kicker reveal">ScreenGuard Pro</p>
+      <h2 class="display reveal">Gratis starten. Pro, wenn du bereit&nbsp;bist.</h2>
+    </div>
+    <div class="cards two">
+      <article class="card plan reveal">
+        <h3>Gratis</h3>
+        <p class="plan-sub">Das Wesentliche, so lange du willst.</p>
+        <ul class="ticks">
+          <li>1 Sperre, zu festen Zeiten oder die ganze Zeit</li>
+          <li>1 tägliches Zeitlimit</li>
+          <li>Sanfte und feste Sperren, bis zu 3 Pausen pro Tag</li>
+          <li>Fokus-Score, Serie und Medaillen</li>
+          <li>Vorlagen, ein Programm und dein Wochenrückblick</li>
+        </ul>
+      </article>
+      <article class="card plan plan-pro reveal">
+        <h3>Pro <span class="badge">1 Woche gratis für neue Abonnenten</span></h3>
+        <p class="plan-sub">Monatlich oder jährlich, oder einmalig lebenslang.</p>
+        <ul class="ticks">
+          <li>Mehr Sperren, bis zu 14 Sperrzeiten und freie Zeiten, mehr tägliche Zeitlimits</li>
+          <li>Strenger Modus und Besuchslimit für sanfte Sperren</li>
+          <li>Drei weitere Programme, wann es dich am meisten zieht, Smarte Einblicke und der Wochenbericht im Detail</li>
+          <li>Bis zu 10 Pausen pro Tag, mehr Augenpausen-Zeitpläne und zwei weitere App-Symbole</li>
+        </ul>
+        <a class="btn btn-cream" href="https://apps.apple.com/app/id6760020453">Laden im App Store</a>
+      </article>
+    </div>
+    <p class="fine reveal">Gratis enthalten sind 1 Sperre (zu festen Zeiten oder ganztags), 1 Sperrzeit oder freie Zeit insgesamt, 1 tägliches Zeitlimit, 3 Pausen pro Tag, ein Programm und der Wochenrückblick. Pro bietet mehr Sperren, bis zu 14 Sperrzeiten und freie Zeiten, mehr Zeitlimits und Augenpausen-Zeitpläne, bis zu 10 Pausen pro Tag, strenge Sperren, ein Besuchslimit für sanfte Sperren, drei weitere Programme, wann es dich am meisten zieht, den Wochenbericht im Detail und zwei weitere App-Symbole. Endet Pro, werden zusätzliche Sperren pausiert statt gelöscht. Wähle ein Monats- oder Jahresabo (neue Abonnenten starten mit einer 1-wöchigen Gratis-Testphase) oder „Lebenslang“ als einmaligen Kauf. Abos verlängern sich automatisch, sofern sie nicht mindestens 24 Stunden vor Ende des Zeitraums gekündigt werden; verwalte sie in den Einstellungen deines Apple Accounts. Die Preise siehst du vor dem Kauf im App Store; sie unterscheiden sich je nach Land. Käufe werden von Apple abgewickelt. <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Nutzungsbedingungen</a> · <a href="../privacy.html">Datenschutz</a></p>
+  </div>
+</section>
+
+<!-- ───────── FAQ ───────── -->
+<section class="paper faq" id="faq">
+  <div class="wrap narrow">
+    <h2 class="display center reveal">Gute Fragen.</h2>
+    <details class="reveal"><summary>Warum braucht ScreenGuard Zugriff auf die Bildschirmzeit?</summary>
+      <p>Apps auf dem iPhone zu sperren geht nur über Apples Bildschirmzeit-Framework. Wenn du den Zugriff erlaubst, kann ScreenGuard die Apps abschirmen, die du wählst. Siehe die <a href="../privacy.html">Datenschutzerklärung</a>.</p></details>
+    <details class="reveal"><summary>Was ist eine Sperre?</summary>
+      <p>Eine <strong>Sperre</strong> ist eine Gruppe von Apps und die Zeit, in der sie gesperrt sind. Es gibt drei Arten: <strong>für eine bestimmte Zeit</strong> (jetzt oder automatisch zu festen Zeiten), <strong>die ganze Zeit</strong> (mit kurzen Pausen bei Bedarf und optionalen freien Zeiten wie über Mittag) und ein <strong>tägliches Zeitlimit</strong> (eine gemeinsame Zeit pro Tag für die Gruppe). Jede Sperre hat zudem eine Stärke: Sanft, Fest oder Streng.</p></details>
+    <details class="reveal"><summary>Was ist eine sanfte Sperre?</summary>
+      <p>Eine sanfte Sperre blockiert die App nicht. Gardi bittet dich, kurz durchzuatmen und zu sagen, wofür du kommst, und lässt dich dann für ein paar Minuten hinein. Umkehren zählt als Sieg. Feste Sperren halten die Apps gesperrt, mit Pausen bei Bedarf; strenge Sperren (Pro) lassen sich nicht vorzeitig beenden.</p></details>
+    <details class="reveal"><summary>Was ist eine Pause?</summary>
+      <p>Eine <strong>Pause</strong> öffnet die Apps einer dauerhaften Sperre für ein paar Minuten, nach einer kurzen Atempause, und sperrt sie danach automatisch wieder. Du legst fest, wie viele Pausen du pro Tag hast.</p></details>
+    <details class="reveal"><summary>Was macht der Strenge Modus?</summary>
+      <p>Der Strenge Modus (Pro) ist für Sperren mit Endzeit, bis zu 24 Stunden. Eine strenge Sperre kann nicht vorzeitig beendet, pausiert, abgeschwächt oder durch eine Pause in der App unterbrochen werden, bis sie von selbst endet.</p></details>
+    <details class="reveal"><summary>Wie kündige ich ein Abo?</summary>
+      <p>Einstellungen › dein Name › Abonnements › ScreenGuard Pro › Abo kündigen. Pro bleibt bis zum Ende des bezahlten Zeitraums aktiv.</p></details>
+    <p class="center small reveal">Mehr Antworten auf der <a href="../support.html">Support-Seite</a> oder per Mail an <a href="mailto:support.screenguard@gmail.com">support.screenguard@gmail.com</a>.</p>
+  </div>
+</section>
+
+<!-- ───────── Final call ───────── -->
+<section class="dusk final" id="get">
+  <div class="wrap narrow center">
+    <picture>
+      <source media="(prefers-reduced-motion: reduce)" srcset="../assets/gardi-still.webp">
+      <img class="final-gardi" src="../assets/gardi-idle.webp" width="273" height="480" loading="lazy" alt="Gardi, die königliche Wache" data-wake="Gardi döst. Tippen, um ihn zu wecken.">
+    </picture>
+    <p class="psst" aria-hidden="true">Psst. Tipp ihn an.</p>
+    <p class="quote reveal">„Ich hüte die Tür.“</p>
+    <h2 class="display reveal">Gib deinen Apps eine&nbsp;Wache.</h2>
+    <a class="btn btn-cream reveal" href="https://apps.apple.com/app/id6760020453">Laden im App Store</a>
+    <p class="hero-note reveal">Gratis starten · Benötigt iOS 26.2 oder iPadOS 26.2 oder neuer</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <a class="brand" href="#top"><img src="../assets/icon-64.png" width="30" height="30" alt=""><span>ScreenGuard</span></a>
+      <nav aria-label="Fusszeile">
+        <a href="../support.html">Hilfe &amp; Support</a>
+        <a href="../privacy.html">Datenschutz</a>
+        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Nutzungsbedingungen</a>
+        <a href="mailto:support.screenguard@gmail.com">Kontakt</a>
+      </nav>
+    </div>
+    <p class="legal">Strenger Modus, mehr Sperren, alle Einblicke, der Wochenbericht im Detail, drei weitere Programme und zwei weitere App-Symbole erfordern ScreenGuard Pro. Funktionen für Live-Aktivität, Dynamic Island und Widgets hängen von deinem Gerät ab. Liegestütz-Entsperrungen nutzen die Kamera deines Geräts; es wird kein Bild und kein Video aufgenommen, gespeichert oder irgendwohin gesendet. Die iCloud-Synchronisierung ist optional und funktioniert zwischen deinen eigenen Geräten mit demselben Apple Account. Die Bildschirme zeigen Beispieldaten.</p>
+    <p class="legal">Apple, das Apple Logo, iPhone, iPad, iPadOS, iCloud, Siri, AirDrop, Dynamic Island und Screen Time sind Marken von Apple Inc., eingetragen in den USA und anderen Ländern und Regionen. App Store ist eine Dienstleistungsmarke von Apple Inc. ScreenGuard ist eine unabhängige App und steht in keiner Verbindung zu Apple Inc. und wird von ihr nicht unterstützt.</p>
+    <nav class="langs" aria-label="Sprache"><a href="../index.html" hreflang="en" lang="en">English</a> <a href="../de/index.html" hreflang="de" lang="de" aria-current="page">Deutsch</a> <a href="../fr/index.html" hreflang="fr" lang="fr">Français</a> <a href="../it/index.html" hreflang="it" lang="it">Italiano</a></nav>
+    <p class="legal">© 2026 Martin Affolter · Zürich, Switzerland</p>
+  </div>
+</footer>
+
+<script src="../landing.js?v=0d3ce5ab" defer></script>
+<script src="../motion.js?v=fd3a9c2d" defer></script>
+</body>
+</html>
